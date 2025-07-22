@@ -1,0 +1,43 @@
+.select-wrapper {
+    position: relative;
+}
+
+.selected-value {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+    color: var(--dark);
+    background: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.options-wrapper {
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2;
+}
+
+.options-visible {
+    display: flex;
+}
+
+.option {
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.option:hover {
+    background-color: var(--ghostwhite);
+}

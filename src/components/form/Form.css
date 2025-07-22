@@ -1,0 +1,8 @@
+.form-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--ghostwhite);
+    border-radius: 10px;
+}
